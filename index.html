@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html">
+  <head>
+    <title>Css Lecture Demoes</title>
+    <style>
+      .bPink {
+        background-color: pink;
+      }
+
+      .bGrey {
+        background-color: lightgray;
+      }
+
+      .fontLarge {
+        font-size: large;
+      }
+
+      .fontGreen {
+        color: green;
+      }
+
+      .fontBlue {
+        color: Blue;
+      }
+
+      img {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Selectors</h1>
+
+    <div id="parent_img">
+        <img src="ice_cream.png" id="firstImage" />
+        <img src="isc_cream_choco.png" id="secondImg" />
+        
+    </div id="example" class="parent_img">
+    <h3>HTML Table 1</h3>
+    <table class="bGrey">
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+      </tr>
+      <tr>
+        <td>Cell 3</td>
+        <td>Cell 4</td>
+      </tr>
+      <tr>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+      </tr>
+    </table>
+    <h3>HTML Table 2</h3>
+    <table class="bPink">
+      <tr>
+        <td><a href="http://www.iti.gov.eg"> ITI </a></td>
+        <td>Cell 2</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.google.com" id="googleAnchor"> google </a></td>
+        <td>Cell 4</td>
+      </tr>
+      <tr>
+        <td><a href="next.html"> MyPage </a></td>
+        <td>Cell 6</td>
+      </tr>
+    </table>
+
+    <h3>HTML Form</h3>
+    <form name="basicForm" class="bGrey fontBlue">
+      <fieldset>
+        <legend>Filters Form</legend>
+
+        <input type="text" value="Type your name here" />
+        <br />
+        <input type="text" value="Type your age" />
+        <br />
+        <input type="button" value="send" />
+      </fieldset>
+    </form>
+    <form id="UserData" name="regForm" action="Data.aspx">
+      <input type="checkbox" name="hoppy" value="1" checked />Running
+      <input type="checkbox" name="hoppy" value="2" />Swimming
+      <input type="checkbox" name="hoppy" value="3" />Reading<br />
+      <select name="City" class="bPink">
+        <option value="1">Mansoura</option>
+        <option value="2">Cairo</option>
+        <option value="3">Alex</option>
+      </select>
+      <input type="submit" value="Send" />
+    </form>
+
+    <br />
+    <br />
+    <br />
+
+
+    <div class="container">
+      <div id="imgs"> 
+        <img src="ice_cream.png" alt="" >
+      </div id="imgs"> 
+     <div class="icons" height="50%">
+        <i class="gg-arrow-left-o ic"></i>
+        <i class="gg-play-stop-o ic"></i>
+        <i class="gg-undo ic"></i>
+        <i class="gg-arrow-right-o ic"></i>
+ </div>
+ <hr>
+ <div id="show_time"> 00:00 </div >
+ <div>
+   <button id="start">start</button> 
+   <button id="stop">stop</button> 
+ </div>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
